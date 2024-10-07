@@ -2,14 +2,21 @@
 Text File Compression And Decompression Using Huffman Coding
 
 Text files can be compressed to make them smaller and faster to send, and unzipping files on devices has a low overhead. The process of encoding involves changing the representation of a file so that the (binary) compressed output takes less space to store and takes less time to transmit while retaining the ability to reconstruct the original file exactly from its compressed representation. Text files can be of various file types, such as HTML, JavaScript, CSS, .txt, and so on. Text compression is required because uncompressed data can take up a lot of space, which is inconvenient for device storage and file sharing.
-------------------------------------------
+
+
+
+
+
 How Does The Process Of Compression Work?
 The size of the text file can be reduced by compressing it, which converts the text to a smaller format that takes up less space. It typically works by locating similar strings/characters within a text file and replacing them with a temporary binary representation to reduce the overall file size. There are two types of file compression,  
--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 Lossy compression: Lossy compression shrinks a file by permanently removing certain elements, particularly redundant elements.
 Lossless compression: Lossless compression can restore all elements of a file during decompression without sacrificing data and quality.
 Text encoding is also of two types: 
--------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Fixed length encoding and 
 Variable length encoding. 
